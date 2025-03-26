@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: "Inter";
+}
+
+:root {
+    --header-background: #303030;
+    --header-color: #FFFFFF;
+}
+
+header {
+    padding: 10%;
+    background-color: var(--header-background);
+    color: var(--header-color);
+    padding-left: 3.75em;
+}
+
+#titleHeader {
+    font-size:  3.75em;
+    padding-bottom: 0.5em;
+}
