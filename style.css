@@ -1,8 +1,9 @@
 *{
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
+    margin: auto;
+    border: auto;
+    padding: auto;
     font-family: "inter";
+    max-width: 96em;
 }
 
 :root {
@@ -15,20 +16,47 @@ header {
     padding: 10%;
     background-color: var(--header-background);
     color: var(--header-color);
-    padding-left: 3.75em;
+    padding-left: 5%;
 }
 
 #titleHeader {
     font-size:  3.75em;
-    padding-bottom: 0.5em;
+    padding: 3.5% 0% 2% 0%;
+}
+
+#paragraphHeader {
+    font-size: 1.25em;
 }
 
 #informationalMenu {
         background-color: var(--informationalMenu-color);
         display: grid;
         grid-auto-flow: column;
-        height: 14.3125em;
-        align-items: center;
-        gap: none;
-        padding-left: 13%;
+        text-align: center;
+        padding: 5%;           
+}
+
+.numberInformationalmenu {
+    font-size: 2.5em;
+}
+
+.textInformationalmenu {
+    font-size: 1.25em;
+}
+
+#main {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding-left: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#titleMain {
+    font-size: 2.5em;
+}
+
+#textMain {
+    font-size: 1.5em;
 }
