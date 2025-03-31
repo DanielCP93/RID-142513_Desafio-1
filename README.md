@@ -4,3 +4,5 @@ Landing Page criada através do Desafio 01 realizado no curso de Desenvolvedor F
 --> Initial commit com adição dos arquivos index.html, style.css, index.js, .gitignore.
 
 --> Construção do Header utilizando HTML e CSS.
+
+--> Criação do menu informacional(informationalMenu)

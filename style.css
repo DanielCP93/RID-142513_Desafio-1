@@ -2,12 +2,13 @@
     margin: 0px;
     border: 0px;
     padding: 0px;
-    font-family: "Inter";
+    font-family: "inter";
 }
 
 :root {
     --header-background: #303030;
     --header-color: #FFFFFF;
+    --informationalMenu-color: #F9F9F9;
 }
 
 header {
@@ -20,4 +21,14 @@ header {
 #titleHeader {
     font-size:  3.75em;
     padding-bottom: 0.5em;
+}
+
+#informationalMenu {
+        background-color: var(--informationalMenu-color);
+        display: grid;
+        grid-auto-flow: column;
+        height: 14.3125em;
+        align-items: center;
+        gap: none;
+        padding-left: 13%;
 }
