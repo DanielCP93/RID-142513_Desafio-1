@@ -8,3 +8,5 @@ Landing Page criada através do Desafio 01 realizado no curso de Desenvolvedor F
 --> Criação do menu informacional(informationalMenu)
 
 --> Criação da Section Main, alteração do Header, InformationalMenu, criação da pasta images.
+
+--> Criação do form.

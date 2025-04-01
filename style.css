@@ -10,6 +10,10 @@
     --header-background: #303030;
     --header-color: #FFFFFF;
     --informationalMenu-color: #F9F9F9;
+    --form-background: #303030;
+    --form-color: #FFFFFF;
+    --button-background: #C07212;
+    --button-color: #FFFFFF;
 }
 
 header {
@@ -32,7 +36,6 @@ header {
         background-color: var(--informationalMenu-color);
         display: grid;
         grid-auto-flow: column;
-        text-align: center;
         padding: 5%;           
 }
 
@@ -59,4 +62,44 @@ header {
 
 #textMain {
     font-size: 1.5em;
+}
+
+form {
+    background-color: var(--form-background);
+    color: var(--form-color);
+    padding: 5%;
+    text-align: center;
+}
+
+#formInput {
+    display: grid;
+}
+
+.input {
+    border-radius: 0.5em;
+    width: 20em;
+    height: 3em;
+    margin-top: 3%;
+    font-size: 1.35em;
+    font-weight: 500;
+    padding-left: 2%;
+}
+
+#button {
+    border-radius: 0.5em;
+    font-size: 1.875em;
+    font-weight: 500;
+    height: 2.5em;
+    width: 10em;
+    margin-top: 5%;
+    background-color: var(--button-background);
+    color: var(--button-color);
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #e98b19 ;
+    transform: translateY(-1em);
+    transition-duration: 0.5s;
+
 }
